@@ -19,4 +19,4 @@ def selection_sort(L: list[int]) -> None:
     for index in range(len(L) - 1):
         swap_index = find_min(L, index)
         L[index], L[swap_index] = L[swap_index], L[index]
-        print("s", L)
+        
